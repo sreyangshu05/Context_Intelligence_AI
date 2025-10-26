@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the effective date of the agreement?",
+    "expected_answer": "January 15, 2024",
+    "contract_type": "MSA",
+    "expected_sources": ["page 1"]
+  },
+  {
+    "id": "q2",
+    "question": "Who are the parties to this agreement?",
+    "expected_answer": "Acme Corporation and Beta Services LLC",
+    "contract_type": "MSA",
+    "expected_sources": ["page 1"]
+  },
+  {
+    "id": "q3",
+    "question": "What is the term of the agreement?",
+    "expected_answer": "12 months",
+    "contract_type": "MSA",
+    "expected_sources": ["page 1", "page 2"]
+  },
+  {
+    "id": "q4",
+    "question": "What are the payment terms?",
+    "expected_answer": "$5,000 per month, Net 30 days",
+    "contract_type": "MSA",
+    "expected_sources": ["page 2"]
+  },
+  {
+    "id": "q5",
+    "question": "What is the governing law?",
+    "expected_answer": "State of California",
+    "contract_type": "MSA",
+    "expected_sources": ["page 2"]
+  },
+  {
+    "id": "q6",
+    "question": "What is the liability cap?",
+    "expected_answer": "$100,000",
+    "contract_type": "MSA",
+    "expected_sources": ["page 2"]
+  },
+  {
+    "id": "q7",
+    "question": "How can the agreement be terminated?",
+    "expected_answer": "Either party may terminate for convenience with 30 days written notice",
+    "contract_type": "MSA",
+    "expected_sources": ["page 3"]
+  },
+  {
+    "id": "q8",
+    "question": "Does the agreement automatically renew?",
+    "expected_answer": "Yes, it automatically renews for successive 12-month terms unless either party provides 45 days notice",
+    "contract_type": "MSA",
+    "expected_sources": ["page 3"]
+  },
+  {
+    "id": "q9",
+    "question": "What confidentiality obligations exist?",
+    "expected_answer": "Each party must maintain confidentiality of proprietary information disclosed by the other party",
+    "contract_type": "MSA",
+    "expected_sources": ["page 2"]
+  },
+  {
+    "id": "q10",
+    "question": "What are the indemnification provisions?",
+    "expected_answer": "Each party shall indemnify the other from claims arising from its negligent acts or omissions",
+    "contract_type": "MSA",
+    "expected_sources": ["page 3"]
+  }
+]
