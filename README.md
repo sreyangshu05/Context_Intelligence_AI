@@ -32,8 +32,8 @@ A production-ready REST API for contract document analysis, structured field ext
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd contract-intelligence-api
+   git clone https://github.com/sreyangshu05/Context_Intelligence_AI.git
+   cd Context_Intelligence_AI
    ```
 
 2. **Configure environment variables**
@@ -118,7 +118,7 @@ curl -X POST http://localhost:8000/extract \
   "effective_date": "2024-01-15",
   "term": "12 months",
   "governing_law": "State of California",
-  "payment_terms": "$5,000 monthly, Net 30",
+  "payment_terms": "5,000 monthly, Net 30",
   "termination": "30 days written notice",
   "auto_renewal": {
     "exists": true,
@@ -134,10 +134,10 @@ curl -X POST http://localhost:8000/extract \
   },
   "liability_cap": {
     "amount": 100000,
-    "currency": "USD"
+    "currency": "INR"
   },
   "signatories": [
-    {"name": "John Doe", "title": "CEO"}
+    {"name": "Rajiv Shukla", "title": "CEO"}
   ]
 }
 ```
@@ -165,7 +165,7 @@ curl -X POST http://localhost:8000/ask \
       "page": 1,
       "char_start": 245,
       "char_end": 445,
-      "excerpt": "This Agreement is entered into as of January 15, 2024..."
+      "excerpt": "This Agreement is entered into as of January 15, 2025..."
     }
   ]
 }
@@ -205,7 +205,7 @@ curl -X POST http://localhost:8000/audit \
       "id": "FIND-002",
       "severity": "LOW",
       "type": "low_liability_cap",
-      "summary": "Liability cap $25,000 is below recommended threshold $50,000",
+      "summary": "Liability cap 25,000 is below recommended threshold 50,000",
       "evidence": [...]
     }
   ]
